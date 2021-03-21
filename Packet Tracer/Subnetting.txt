@@ -1,0 +1,26 @@
+https://drive.google.com/uc?id=0B0PJN0z8d6HRVHZpVUJZakp3bWs&export=download
+
+
+Subnetting 
+
+Main Subnet : 204.15.5.0/24
+
+Subnet-1 for Ground Floor : 204.15.5.0/27 (32 hosts) Netmask : 255.255.255.224  VLAN100
+First IP address : 204.15.5.1
+Last IP Address  : 204.15.5.30
+Broadcast Address: 204.15.5.31
+
+Subnet-2 for 1st Floor : 204.15.5.32/27 (32 hosts) Netmask : 255.255.255.224 VLAN200
+First IP address : 204.15.5.33
+Last IP Address  : 204.15.5.62
+Broadcast Address: 204.15.5.63
+
+Subnet-3 for 2nd Floor : 204.15.5.64/27 (32 hosts) Netmask : 255.255.255.224 VLAN300
+First IP address : 204.15.5.65
+Last IP Address  : 204.15.5.94
+Broadcast Address: 204.15.5.95
+
+Subnet-4 for Staff Offices: 204.15.5.96/28 (16 hosts) Netmask : 255.255.255.240 VLAN400
+First IP address : 204.15.5.97
+Last IP Address  : 204.15.5.110
+Broadcast Address: 204.15.5.111
